@@ -1,0 +1,25 @@
+/* Add this CSS to your existing styles.css or in a separate CSS file */
+
+.App {
+  font-family: sans-serif;
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+.navigation-button {
+  padding: 10px 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+/* Styles for the dropdown container */
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
